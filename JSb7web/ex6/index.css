@@ -1,0 +1,21 @@
+.vermelho{
+   background-color:#CCC;
+    color: #d50e0e;
+}
+
+.azul{
+    background-color:#CCC;
+    color: #3a09ff;
+}
+
+.verde{
+    background-color:#CCC;
+    color: #53eb34;
+
+}
+
+#tel{
+
+display: none;
+
+}
