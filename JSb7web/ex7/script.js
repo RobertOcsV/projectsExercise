@@ -1,31 +1,27 @@
 
 
-function vermelho(){
-    trocarCor()
-    document.getElementById('texto').classList.add('vermelho');
+/* objeto*/ 
+let carro = {
+    nome: 'Fiat',
+    modelo: 'Uno',
+    peso: '800kg',
+    ligado: false,
+    ligar:function(){
+        this.ligado = true;
+        console.log("carro ligando")
+    },
 
-}
+    acelerar:function(){
+        if(this.ligado == true ){
+        console.log("carro acelerando")
+        }else{
+            console.log(this.nome+" "+ this.modelo+" não está desligado")
 
-function verde(){
-    trocarCor()
-    document.getElementById('texto').classList.add('verde');
-}
+        }
+ }
+};
 
-function azul(){
-    trocarCor()
-    document.getElementById('texto').classList.add('azul');
-}
 
-function trocarCor(){
-    document.getElementById('texto').classList.remove('vermelho');
-    document.getElementById('texto').classList.remove('azul');
-    document.getElementById('texto').classList.remove('verde');
-
-}
-
-function showTell(elemento){
-
-    elemento.style.display="none";
-    document.getElementById('tel').style.display="block"
-
-}
+carro.acelerar();
+carro.ligar();
+carro.acelerar();
