@@ -1,29 +1,45 @@
-let lista = [45, 4, 9, 16, 25];
-let lista2 = [];
+// let d = new Date(); -- Outra forma de fazer isso é com o método .now como abaixo:
 
 
-lista2 = lista.find(function(item){
+let novoValor = Date.now();
 
-    return (item == 16)? true: false
+novoValor = d.getFullYear();
 
-})
+novoValor = d.getMonth();
 
-let res = lista2;
+novoValor = d.getDay();
 
-console.log(res)
+novoValor = d.getDate();
 
-//---------
+novoValor = d.getHours();
+
+novoValor = d.getMinutes();
+
+novoValor = d.getSeconds();
+
+novoValor = d.getMilliseconds();
 
 
-/* 
+console.log( novoValor );
 
-função find
-    Ela faz uma busca especifica na lista percorrendo todos os itens da array, para saber se o item colocado no parametro de function 
-    contém dentro da arary, o resultado será o valor escolhido que retornara o item da lista em true ou false.
 
-     parâmetro do find é: (item, index, array)
+/*
+    --- Como pegar informações especificas da var "d" que possui a class com as infos de data ---
 
-função findIndex ao invés de retornar o valor da posição escolhida, ele retorna o a posição do item desejado.
+    let var1 = var2.getFullYear(); <-- Vai puxar somente o ano da var1 e botar na var2
 
+    let var1 = var2.getMonth() <-- Vai puxar somente o mês  da var1 e botar na var2
+
+    let var1 = var2.getDay() <--  Pega o dia da semana, que vai de 0 a 6 - 0 a partir de domingo.
+
+    let var1 = var2.getDate() <-- Vai puxar somente o dia do mês da var1 e botar na var2
+
+    let var1 = var2.getDate() <-- Vai puxar somente as horas do dia da var1 e botar na var2
+
+    let var1 = var2.getDate() <-- Vai puxar somente os minutos do dia da var1 e botar na var2
+
+     let var1 = var2.getDate() <-- Vai puxar somente os segundos do dia da var1 e botar na var2
+
+      let var1 = var2.getDate() <-- Vai puxar somente os Milisegundos do dia da var1 e botar na var2
 
 */
