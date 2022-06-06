@@ -1,0 +1,27 @@
+let timer; 
+
+function showTime() {
+
+    let d = new Date();
+    
+    let h = d.getHours();
+    let m = d.getMinutes();
+    let s = d.getSeconds();
+    let ms = d.getMilliseconds();
+    let txt = h+':'+m+':'+s;
+
+    document.querySelector('.demo').innerHTML = txt;
+}
+
+
+
+
+function comecar(){
+      timer = setInterval(showTime, 10);
+}
+
+function parar(){
+    clearInterval(timer)
+    
+
+}
