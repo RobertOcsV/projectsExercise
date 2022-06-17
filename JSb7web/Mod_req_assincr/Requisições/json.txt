@@ -1,0 +1,12 @@
+Quando falamos de requisições, precisamos falar de json.
+
+JSON:
+
+JAVASCRIPT
+OBJECT
+NOTATION
+
+----
+Json é uma sintaxe de objeto que usamos para ponte de comunicação nas requisições, 
+de recebimento e envio das interações e solicitações.
+
