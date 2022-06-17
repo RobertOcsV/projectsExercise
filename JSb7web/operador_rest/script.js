@@ -37,3 +37,10 @@ let nomes = ['Robert', 'Lucas']
 let outros = adicionar(nomes, 'julia', 'joao', 'gustavo')
 
 console.log(outros)
+
+
+// Diferença entre operador rest e spread:
+
+/* O rest tem uma função que recebe um número indeterminado de parâmetros, enquanto que o spread 
+permite definir um número indeterminado de de parâmetros para a função
+*/
