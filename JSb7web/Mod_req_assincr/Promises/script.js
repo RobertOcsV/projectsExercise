@@ -59,7 +59,7 @@ uma lista de coisas, geralmente a gente usa um array, quando a gente precisa rep
 a gente usa uma promise.
 
 Muito raramente você vai precisar usar o construtor da promise já que a adoção pela comunidade foi muito grande
-então a maior parte das APIS da linguagem e das bibliotecas vão utilizas promises já, mas tem alguns casos onde
+então a maior parte das APIS da linguagem e das bibliotecas vão utilizar promises já, mas tem alguns casos onde
 ainda pode ser útil utilizar o construtor da Promise, por exemplo, para converter o setTimout da sua versão
 original em callback para uma versão em promise.
 
