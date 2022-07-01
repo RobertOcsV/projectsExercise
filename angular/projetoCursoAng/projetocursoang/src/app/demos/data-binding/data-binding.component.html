@@ -1,7 +1,18 @@
 <div class="container main-container">
     <h3>Interpolation</h3>
 
-    <p>O número de cliques é: {{contadorClique}}</p>
+    <!-- <p>O número de cliques é: {{contadorClique}}</p> -->
+
+    <p [ngClass]="{
+
+        'text-secondary':contadorClique < 3,
+        'text-sucess':contadorClique >= 3,
+        'text-warning':contadorClique >= 5,
+        'text-danger':contadorClique >= 9
+
+
+
+    }">O número de cliques é : {{contadorClique}}</p>
 
     <br>
     <br>
