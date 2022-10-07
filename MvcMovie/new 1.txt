@@ -1,0 +1,16 @@
+for (int anos = 1; anos <= 5; anos++)
+        {
+
+            for (int mes = 1; mes <= 12; mes++)
+            {
+                investimento *= fatorRendimento ;
+
+                if (mes == 12)
+                {
+                    Console.WriteLine("rendimento do ano: " + anos + " foi: " + investimento);
+                }
+            }
+
+            fatorRendimento += 1.001;
+
+        }

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "vwXZFjEb65LQZiKwUDjojG5GfashYOyYtiPgoXScjUglfkwP+t6xHZ33WqiVBow3bG/m/SSWXXHEzaNlYlPa6A==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\projectsExercise\\TreinoAspNetCore5\\AmbientedeTreino\\AmbientedeTreino\\AmbientedeTreino.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RobertC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\RobertC\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\RobertC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\RobertC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\RobertC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\RobertC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

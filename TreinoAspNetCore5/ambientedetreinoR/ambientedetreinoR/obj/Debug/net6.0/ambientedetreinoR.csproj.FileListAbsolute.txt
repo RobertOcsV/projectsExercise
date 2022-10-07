@@ -1,0 +1,15 @@
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\bin\Debug\net6.0\ambientedetreinoR.exe
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\bin\Debug\net6.0\ambientedetreinoR.deps.json
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\bin\Debug\net6.0\ambientedetreinoR.runtimeconfig.json
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\bin\Debug\net6.0\ambientedetreinoR.dll
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\bin\Debug\net6.0\ambientedetreinoR.pdb
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\ambientedetreinoR.csproj.AssemblyReference.cache
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\ambientedetreinoR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\ambientedetreinoR.AssemblyInfoInputs.cache
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\ambientedetreinoR.AssemblyInfo.cs
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\ambientedetreinoR.csproj.CoreCompileInputs.cache
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\ambientedetreinoR.dll
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\refint\ambientedetreinoR.dll
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\ambientedetreinoR.pdb
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\ambientedetreinoR.genruntimeconfig.cache
+D:\Github\projectsExercise\TreinoAspNetCore5\ambientedetreinoR\ambientedetreinoR\obj\Debug\net6.0\ref\ambientedetreinoR.dll
