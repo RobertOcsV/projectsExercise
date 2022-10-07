@@ -1,7 +1,6 @@
 let modalQt = 1;
 let cart = [];
 let modalKey = 0;
-var precoSomar = 0;
 const c = (el)=>document.querySelector(el);
 const cs = (el)=> document.querySelectorAll(el);
 
@@ -23,10 +22,9 @@ pizzaJson.map((item, index)=>{
     pizzaItem.querySelector('a').addEventListener('click', (e)=>{
     e.preventDefault();
 
-        let key = e.target.closest('.pizza-item').getAttribute('data-key');
+        let key = e.target.closest('.pizza-item').getAttribute('data-key');        
         modalQt = 1;
         modalKey = key;
-        console.log(pizzaJson[key]);
 
         c('.pizzaInfo h1').innerHTML = pizzaJson[key].name;
         c('.pizzaInfo--desc').innerHTML = pizzaJson[key].description;
@@ -91,22 +89,49 @@ c('.pizzaInfo--qtmais').addEventListener('click', ()=>{
     c('.pizzaInfo--qt').innerHTML = modalQt;
     
     // pizzaJson[modalKey].price = pizzaJson[modalKey].price + pizzaJson[modalKey].price;
-    // c('.pizzaInfo--actualPrice').innerHTML = `R$ ${pizzaJson[modalKey].price.toFixed(2)}`;
-
-    
+    // c('.pizzaInfo--actualPrice').innerHTML = `R$ ${pizzaJson[modalKey].price.toFixed(2)}`;    
 })
+
 cs('.pizzaInfo--size').forEach((size, sizeIndex)=>{
-    
     size.addEventListener('click', (e)=>{
         c('.pizzaInfo--size.selected').classList.remove('selected');    
         size.classList.add('selected');
     });
-
-
 });
+
 c(".pizzaInfo--addButton").addEventListener('click', ()=>{
-    // Qual a pizza?
-    //Qual o tamanho?
-    //Quantas pizzas?
-});
-// precoSomar = pizzaJson[key].price.toFixed(2)
+    // console.log("Pizza: "+modalKey); // Qual a pizza?
+    // console.log("tamanho: "+ size);//Qual o tamanho?
+    // console.log("quantidade: "+modalQt)  //Quantas pizzas?
+
+    let size = parseInt( c('.pizzaInfo--size.selected').getAttribute('data-key'));
+    let identifier = pizzaJson[modalKey].id+'@'+size;
+    let key = cart.findIndex((item)=>item.identifier == identifier);
+
+    if(key > -1){
+        cart[key].qt += modalQt; 
+    } else {
+        cart.push({
+            identifier,
+            id:pizzaJson[modalKey].id,
+            size,
+            qt:modalQt
+        });
+    }
+
+    updateCart();
+    closeModal();
+}); 
+    // precoSomar = pizzaJson[key].price.toFixed(2)
+    
+    function updateCart(){
+        if(cart.length > 0){
+
+            c('aside').classList.add('show');
+        } else {
+            closeModal();
+
+        }
+
+    }
+   
