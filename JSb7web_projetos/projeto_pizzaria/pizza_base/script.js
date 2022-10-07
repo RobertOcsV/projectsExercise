@@ -126,8 +126,14 @@ c(".pizzaInfo--addButton").addEventListener('click', ()=>{
     
     function updateCart(){
         if(cart.length > 0){
-
             c('aside').classList.add('show');
+
+            for(let i in cart){
+                let pizzaItem = pizzaJson.find((item)=> item.id == cart[i].id );
+           
+                console.log(pizzaItem)
+        };
+
         } else {
             closeModal();
 
