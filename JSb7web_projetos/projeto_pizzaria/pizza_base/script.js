@@ -130,8 +130,10 @@ c(".pizzaInfo--addButton").addEventListener('click', ()=>{
 
             for(let i in cart){
                 let pizzaItem = pizzaJson.find((item)=> item.id == cart[i].id );
-           
-                console.log(pizzaItem)
+                let cartItem = c('.models .cart--item').cloneNode(true);
+
+                
+              
         };
 
         } else {
