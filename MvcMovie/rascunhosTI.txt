@@ -4,3 +4,11 @@
  https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/top-level-statements
  
  como criar repositório - Repository - criar repositórios para o projeto web - API (dotnet core 6 repository.)
+ 
+ 
+ 
+ providers - angular.
+ teste com angular - 
+ design partners -  master detail
+ 
+ 
